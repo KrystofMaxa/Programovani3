@@ -20,9 +20,10 @@ public class PocitadloZnakuVTextu implements Comparable {
 
         //Hashmap pro ukladani pismen a jejich pocet vyskytnuti v text
 
-        String slovo = sc.next();
 
-        while (sc.hasNext()){
+        while (sc.hasNext()){ 
+            String slovo = sc.next();
+
             int i = 0;
             while (i<slovo.length()) {
                 //dostane pismeno ze stringu
